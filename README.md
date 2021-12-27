@@ -7,7 +7,7 @@
 
 #About the Project
 - This project is about analyzing message data for disaster response. The data gotten from Figure Eight is used to build a model that classifies disaster   
--  -  messages and web app where an respondent can input a new message and get classification results in several categories
+-  messages and web app where an respondent can input a new message and get classification results in several categories
 
 #Files structure
 
