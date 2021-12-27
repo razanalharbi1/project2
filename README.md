@@ -11,15 +11,18 @@
 #Files structure
 
 - data: folder contains sample messages and categories datasets in csv format
+
 |-  disaster_categories.csv # data to process
 |-  disaster_messages.csv # data to process
 |-  process_data.py # python code takes as input csv files(message data and message categories datasets), clean it, and then creates a SQL database
 |-  disasterMessagesDatabase.db # database to save clean data to
+
 - app: contains the run.py to deploy the web app.
 | - template
 | |- master.html # main page of web app
 | |- go.html # classification result page of web app
 |- run.py # Flask file that runs app
+
 - models
 |- train_classifier.py # code to train the ML model with the SQL data base
 |- Classifier.pkl # saved model
